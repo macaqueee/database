@@ -7,8 +7,10 @@ universe\exceptions\InvalidConnection.class
 universe\dao\interfaces\StudentDAO.class
 universe\dao\interfaces\GroupDAO.class
 universe\model\Group.class
-universe\servlet\MyServlet.class
+universe\filter\RequestLoggerFilter.class
 universe\run\Run.class
+universe\listener\InitSpringContextListener.class
+universe\servlet\CreateStudentServlet.class
 universe\exceptions\FailedAddingStudentException.class
 universe\dao\impl\StudentDAOImpl.class
 universe\dao\interfaces\LectorDAO.class
