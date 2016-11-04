@@ -11,6 +11,7 @@ import java.io.IOException;
 public class RequestLoggerFilter implements Filter {
 
     private static final Logger LOGGER = Logger.getLogger(RequestLoggerFilter.class);
+
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         LOGGER.info("created RequestLoggerFilter");

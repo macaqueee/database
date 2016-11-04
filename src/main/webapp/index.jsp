@@ -4,9 +4,10 @@
     <title>Main</title>
 </head>
 <body>
-    <div class = "header">
+    <div class = "header" align="center">
         <ul>
-            <li><a href ="student">Create form</a></li>
+            <li><a href ="student">Work with students</a></li>
+            <li><a href = "group">Work with groups</a></li>
         </ul>
 
     </div>

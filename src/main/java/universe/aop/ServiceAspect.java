@@ -17,12 +17,12 @@ public class ServiceAspect {
     public Object getLog(ProceedingJoinPoint proceedingJoinPoint) throws Throwable{
         LOGGER.info("Inside method: " + proceedingJoinPoint.getSignature());
 
+
         Object object = null;
 
         try{
             object = proceedingJoinPoint.proceed();
         } catch (Throwable e){
-            e.printStackTrace();
             LOGGER.info("Exception: " + e);
             throw e;
         }

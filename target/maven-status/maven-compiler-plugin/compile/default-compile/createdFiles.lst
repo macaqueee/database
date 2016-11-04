@@ -3,14 +3,15 @@ universe\exceptions\EmptyStudentsTableException.class
 universe\view\ConsoleMenu.class
 universe\model\Lector.class
 universe\model\IdEntity.class
+universe\servlet\GroupServlet.class
 universe\exceptions\InvalidConnection.class
 universe\dao\interfaces\StudentDAO.class
 universe\dao\interfaces\GroupDAO.class
 universe\model\Group.class
 universe\filter\RequestLoggerFilter.class
 universe\run\Run.class
+universe\exceptions\WrongInputDataException.class
 universe\listener\InitSpringContextListener.class
-universe\servlet\CreateStudentServlet.class
 universe\exceptions\FailedAddingStudentException.class
 universe\dao\impl\StudentDAOImpl.class
 universe\dao\interfaces\LectorDAO.class
@@ -22,4 +23,5 @@ universe\service\Service.class
 universe\exceptions\StudentNotFoundException.class
 universe\service\ServiceImpl.class
 universe\dao\impl\GroupDAOImpl.class
+universe\servlet\StudentServlet.class
 universe\model\Subject.class

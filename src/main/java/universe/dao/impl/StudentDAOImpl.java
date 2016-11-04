@@ -1,5 +1,6 @@
 package universe.dao.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import universe.dao.interfaces.StudentDAO;
 import universe.model.Group;
@@ -23,6 +24,7 @@ public class StudentDAOImpl implements StudentDAO {
     private EntityManager entityManager;
 
 
+
     public StudentDAOImpl() {
     }
 
@@ -33,6 +35,7 @@ public class StudentDAOImpl implements StudentDAO {
 
     @Override
     @Transactional
+
     public List<Student> getStudentGroup(Group group) {
         List<Student> students = entityManager.createQuery("SELECT s FROM Student s WHERE s.group LIKE :group")
                 .setParameter("group", group).getResultList();
@@ -53,7 +56,7 @@ public class StudentDAOImpl implements StudentDAO {
     public Student addInstance(Student student) {
 
         Group group = entityManager.find(Group.class, student.getGroup().getId());
-        if (group != null){
+        if (group != null ){
             student.setGroup(group);
         }
         entityManager.persist(student);

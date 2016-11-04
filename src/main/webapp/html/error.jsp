@@ -4,6 +4,6 @@
     <title>Error</title>
 </head>
 <body>
-<h1>Some error message</h1>
+<h1>Fatal Error</h1>
 </body>
 </html>

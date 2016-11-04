@@ -8,6 +8,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import universe.exceptions.EmptyStudentsTableException;
 import universe.exceptions.FailedAddingStudentException;
+import universe.exceptions.WrongInputDataException;
 import universe.model.Group;
 import universe.model.Student;
 import universe.service.Service;
@@ -30,7 +31,7 @@ public class TestService {
     }
 
     @Test
-    public void addStudent() throws FailedAddingStudentException {
+    public void addStudent() throws FailedAddingStudentException, WrongInputDataException {
         Group group = new Group("European");
         group.setId(2);
         Assert.assertNotNull(service.addStudent(new Student("Test service student",group)));

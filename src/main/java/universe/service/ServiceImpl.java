@@ -4,6 +4,7 @@ import org.springframework.transaction.annotation.Transactional;
 import universe.dao.interfaces.StudentDAO;
 import universe.exceptions.EmptyStudentsTableException;
 import universe.exceptions.FailedAddingStudentException;
+import universe.exceptions.WrongInputDataException;
 import universe.model.Group;
 import universe.model.Lector;
 import universe.model.Student;
@@ -36,6 +37,9 @@ public class ServiceImpl implements Service {
     @Override
     @Transactional
     public List<Student> getAllStudents(int offset, int length) throws EmptyStudentsTableException {
+
+        // Validation
+
         List<Student> studentList = daoStudentController.getAll(offset,length);
 
         if (studentList.isEmpty()){
@@ -46,7 +50,12 @@ public class ServiceImpl implements Service {
     }
 
     @Override
-    public Student addStudent(Student student) throws FailedAddingStudentException {
+    public Student addStudent(Student student) throws FailedAddingStudentException, WrongInputDataException {
+
+        if(student == null){
+            LOGGER.error("Wrong input student");
+            throw new WrongInputDataException("Fail with input student");
+        }
 
         Student addedStudent = daoStudentController.addInstance(student);
 

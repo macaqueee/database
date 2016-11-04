@@ -2,6 +2,7 @@ package universe.service;
 
 import universe.exceptions.EmptyStudentsTableException;
 import universe.exceptions.FailedAddingStudentException;
+import universe.exceptions.WrongInputDataException;
 import universe.model.Group;
 import universe.model.Lector;
 import universe.model.Student;
@@ -19,7 +20,7 @@ public interface Service {
     List<Lector> getAllLectors();
     List<Group> getAllGroups();
 
-    Student addStudent(Student student) throws FailedAddingStudentException;
+    Student addStudent(Student student) throws FailedAddingStudentException, WrongInputDataException;
     Group addGroup(Group group);
     Lector addLector(Lector lector);
     Subject addSubject(Subject subject);

@@ -18,8 +18,7 @@
 
     <tx:annotation-driven transaction-manager="transactionManager" />
 
-
-    <bean id="ServiceAspect" class="universe.aop.ServiceAspect"/>
+    <bean id="serviceAspect" class="universe.aop.ServiceAspect"/>
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="${db.driver}" />

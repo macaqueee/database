@@ -4,6 +4,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import universe.dao.impl.StudentDAOImpl;
 import universe.dao.interfaces.GroupDAO;
 import universe.dao.interfaces.StudentDAO;
 import universe.model.Group;
@@ -17,7 +18,7 @@ import java.util.List;
  */
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations =  {"classpath:app-context.xml"})
+@ContextConfiguration(locations =  {"classpath:app-test-context.xml"})
 public class TestStudentDAOImpl {
 
 

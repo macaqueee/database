@@ -349,3 +349,291 @@
 2016-10-28 12:28:13 INFO  ServiceAspect:30 - Successfully ending method: List universe.service.Service.getAllStudents(int,int)
 2016-10-28 12:28:13 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Fri Oct 28 12:28:09 EEST 2016]; root of context hierarchy
 2016-10-28 12:28:13 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:31:15 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-29 14:31:15 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-10-29 14:31:15 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@21213b92, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a67c67e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3327bd23, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e1d422d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66480dd7]
+2016-10-29 14:31:15 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-test-context.xml]
+2016-10-29 14:31:16 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Sat Oct 29 14:31:16 EEST 2016]; root of context hierarchy
+2016-10-29 14:31:16 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app-test.properties]
+2016-10-29 14:31:16 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-29 14:31:17 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-10-29 14:31:17 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:31:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-29 14:31:17 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-29 14:31:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-29 14:31:17 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-29 14:31:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-29 14:31:18 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-29 14:31:20 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:31:20 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-10-29 14:31:21 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-29 14:31:22 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-29 14:31:22 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-10-29 14:31:22 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1416cf9f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@84487f4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@bfc14b9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@fb6097b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2dfe5525]
+2016-10-29 14:31:22 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-context.xml]
+2016-10-29 14:31:22 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@1290c49: startup date [Sat Oct 29 14:31:22 EEST 2016]; root of context hierarchy
+2016-10-29 14:31:22 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-29 14:31:22 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-29 14:31:22 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-10-29 14:31:22 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:31:22 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-29 14:31:22 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-29 14:31:22 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:31:22 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-10-29 14:31:22 INFO  ServiceAspect:18 - Inside method: Student universe.service.Service.addStudent(Student)
+2016-10-29 14:31:23 INFO  ServiceAspect:30 - Successfully ending method: Student universe.service.Service.addStudent(Student)
+2016-10-29 14:31:23 INFO  ServiceAspect:18 - Inside method: List universe.service.Service.getAllStudents(int,int)
+2016-10-29 14:31:23 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-29 14:31:23 INFO  ServiceAspect:30 - Successfully ending method: List universe.service.Service.getAllStudents(int,int)
+2016-10-29 14:31:23 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Sat Oct 29 14:31:16 EEST 2016]; root of context hierarchy
+2016-10-29 14:31:23 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@1290c49: startup date [Sat Oct 29 14:31:22 EEST 2016]; root of context hierarchy
+2016-10-29 14:31:23 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:31:23 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:41:06 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-29 14:41:06 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-10-29 14:41:06 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@21213b92, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a67c67e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3327bd23, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e1d422d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66480dd7]
+2016-10-29 14:41:06 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-test-context.xml]
+2016-10-29 14:41:06 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Sat Oct 29 14:41:06 EEST 2016]; root of context hierarchy
+2016-10-29 14:41:06 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app-test.properties]
+2016-10-29 14:41:06 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-29 14:41:06 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-10-29 14:41:07 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:41:07 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-29 14:41:07 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-29 14:41:07 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-29 14:41:07 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-29 14:41:07 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-29 14:41:07 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-29 14:41:09 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:41:09 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-10-29 14:41:09 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-29 14:41:09 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-29 14:41:09 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-10-29 14:41:09 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1416cf9f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@84487f4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@bfc14b9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@fb6097b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2dfe5525]
+2016-10-29 14:41:09 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-context.xml]
+2016-10-29 14:41:10 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@1290c49: startup date [Sat Oct 29 14:41:10 EEST 2016]; root of context hierarchy
+2016-10-29 14:41:10 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-29 14:41:10 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-29 14:41:10 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-10-29 14:41:10 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:41:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-29 14:41:10 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-29 14:41:10 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:41:10 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-10-29 14:41:10 INFO  ServiceAspect:18 - Inside method: Student universe.service.Service.addStudent(Student)
+2016-10-29 14:41:10 INFO  ServiceAspect:30 - Successfully ending method: Student universe.service.Service.addStudent(Student)
+2016-10-29 14:41:10 INFO  ServiceAspect:18 - Inside method: List universe.service.Service.getAllStudents(int,int)
+2016-10-29 14:41:10 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-29 14:41:10 INFO  ServiceAspect:30 - Successfully ending method: List universe.service.Service.getAllStudents(int,int)
+2016-10-29 14:41:10 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Sat Oct 29 14:41:06 EEST 2016]; root of context hierarchy
+2016-10-29 14:41:10 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@1290c49: startup date [Sat Oct 29 14:41:10 EEST 2016]; root of context hierarchy
+2016-10-29 14:41:10 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:41:10 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:50:10 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-29 14:50:10 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-10-29 14:50:10 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@21213b92, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a67c67e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3327bd23, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e1d422d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66480dd7]
+2016-10-29 14:50:10 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-test-context.xml]
+2016-10-29 14:50:10 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Sat Oct 29 14:50:10 EEST 2016]; root of context hierarchy
+2016-10-29 14:50:10 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app-test.properties]
+2016-10-29 14:50:10 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-29 14:50:11 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-10-29 14:50:11 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:50:11 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-29 14:50:11 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-29 14:50:11 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-29 14:50:11 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-29 14:50:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-29 14:50:12 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-29 14:50:14 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:50:14 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-10-29 14:50:14 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-29 14:50:15 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-29 14:50:15 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-10-29 14:50:15 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1416cf9f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@84487f4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@bfc14b9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@fb6097b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2dfe5525]
+2016-10-29 14:50:15 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-context.xml]
+2016-10-29 14:50:15 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@1290c49: startup date [Sat Oct 29 14:50:15 EEST 2016]; root of context hierarchy
+2016-10-29 14:50:15 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-29 14:50:15 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-29 14:50:15 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-10-29 14:50:15 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:50:15 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-29 14:50:15 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-29 14:50:15 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:50:15 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-10-29 14:50:15 INFO  ServiceAspect:18 - Inside method: Student universe.service.Service.addStudent(Student)
+2016-10-29 14:50:15 INFO  ServiceAspect:30 - Successfully ending method: Student universe.service.Service.addStudent(Student)
+2016-10-29 14:50:16 INFO  ServiceAspect:18 - Inside method: List universe.service.Service.getAllStudents(int,int)
+2016-10-29 14:50:16 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-29 14:50:16 INFO  ServiceAspect:30 - Successfully ending method: List universe.service.Service.getAllStudents(int,int)
+2016-10-29 14:50:16 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Sat Oct 29 14:50:10 EEST 2016]; root of context hierarchy
+2016-10-29 14:50:16 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@1290c49: startup date [Sat Oct 29 14:50:15 EEST 2016]; root of context hierarchy
+2016-10-29 14:50:16 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 14:50:16 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 15:40:46 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-29 15:40:46 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-10-29 15:40:46 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@21213b92, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a67c67e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3327bd23, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e1d422d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66480dd7]
+2016-10-29 15:40:46 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-test-context.xml]
+2016-10-29 15:40:48 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Sat Oct 29 15:40:48 EEST 2016]; root of context hierarchy
+2016-10-29 15:40:49 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app-test.properties]
+2016-10-29 15:40:49 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-29 15:40:49 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-10-29 15:40:49 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-29 15:40:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-29 15:40:50 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-29 15:40:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-29 15:40:50 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-29 15:40:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-29 15:40:51 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-29 15:40:53 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 15:40:54 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-10-29 15:40:55 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-29 15:40:55 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-29 15:40:55 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-10-29 15:40:55 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1416cf9f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@84487f4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@bfc14b9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@fb6097b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2dfe5525]
+2016-10-29 15:40:55 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-context.xml]
+2016-10-29 15:40:55 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@1290c49: startup date [Sat Oct 29 15:40:55 EEST 2016]; root of context hierarchy
+2016-10-29 15:40:55 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-29 15:40:55 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-29 15:40:55 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-10-29 15:40:55 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-29 15:40:55 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-29 15:40:55 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-29 15:40:55 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 15:40:55 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-10-29 15:40:55 INFO  ServiceAspect:18 - Inside method: Student universe.service.Service.addStudent(Student)
+2016-10-29 15:40:56 INFO  ServiceAspect:30 - Successfully ending method: Student universe.service.Service.addStudent(Student)
+2016-10-29 15:40:56 INFO  ServiceAspect:18 - Inside method: List universe.service.Service.getAllStudents(int,int)
+2016-10-29 15:40:56 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-29 15:40:56 INFO  ServiceAspect:30 - Successfully ending method: List universe.service.Service.getAllStudents(int,int)
+2016-10-29 15:40:56 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Sat Oct 29 15:40:48 EEST 2016]; root of context hierarchy
+2016-10-29 15:40:56 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-29 15:40:56 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@1290c49: startup date [Sat Oct 29 15:40:55 EEST 2016]; root of context hierarchy
+2016-10-29 15:40:56 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-30 12:22:41 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-30 12:22:41 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-10-30 12:22:41 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@d8355a8, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@59fa1d9b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28d25987, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4501b7af, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@523884b2]
+2016-10-30 12:22:42 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-context.xml]
+2016-10-30 12:22:43 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@6e1ec318: startup date [Sun Oct 30 12:22:43 EET 2016]; root of context hierarchy
+2016-10-30 12:22:44 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-10-30 12:22:44 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-30 12:22:45 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-10-30 12:22:45 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-30 12:22:45 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-30 12:22:46 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-10-30 12:22:46 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-10-30 12:22:46 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-30 12:22:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-30 12:22:46 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-30 12:22:48 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-10-30 12:22:48 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-10-30 12:22:49 INFO  ServiceAspect:18 - Inside method: List universe.service.Service.getAllStudents(int,int)
+2016-10-30 12:22:49 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-30 12:22:50 INFO  ServiceAspect:29 - Successfully ending method: List universe.service.Service.getAllStudents(int,int)
+2016-10-30 12:22:50 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@6e1ec318: startup date [Sun Oct 30 12:22:43 EET 2016]; root of context hierarchy
+2016-10-30 12:22:50 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:41:26 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-11-04 16:41:26 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-11-04 16:41:26 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@21213b92, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a67c67e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3327bd23, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e1d422d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66480dd7]
+2016-11-04 16:41:26 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-test-context.xml]
+2016-11-04 16:41:27 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Fri Nov 04 16:41:27 EET 2016]; root of context hierarchy
+2016-11-04 16:41:27 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app-test.properties]
+2016-11-04 16:41:27 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-11-04 16:41:28 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-11-04 16:41:28 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:41:28 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-11-04 16:41:28 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-11-04 16:41:28 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-11-04 16:41:28 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-11-04 16:41:28 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-11-04 16:41:29 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-11-04 16:41:30 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:41:30 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-11-04 16:41:31 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-04 16:41:32 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-11-04 16:41:32 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-11-04 16:41:32 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@84487f4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@bfc14b9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@fb6097b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2dfe5525, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1290c49]
+2016-11-04 16:41:32 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-context.xml]
+2016-11-04 16:41:32 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@6a9b9909: startup date [Fri Nov 04 16:41:32 EET 2016]; root of context hierarchy
+2016-11-04 16:41:32 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-11-04 16:41:32 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-11-04 16:41:32 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-11-04 16:41:32 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:41:32 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-11-04 16:41:32 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-11-04 16:41:32 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:41:32 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-11-04 16:41:32 INFO  ServiceAspect:18 - Inside method: Student universe.service.Service.addStudent(Student)
+2016-11-04 16:41:32 INFO  ServiceAspect:30 - Successfully ending method: Student universe.service.Service.addStudent(Student)
+2016-11-04 16:41:32 INFO  ServiceAspect:18 - Inside method: List universe.service.Service.getAllStudents(int,int)
+2016-11-04 16:41:32 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-04 16:41:32 INFO  ServiceAspect:30 - Successfully ending method: List universe.service.Service.getAllStudents(int,int)
+2016-11-04 16:41:32 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Fri Nov 04 16:41:27 EET 2016]; root of context hierarchy
+2016-11-04 16:41:32 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:41:32 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@6a9b9909: startup date [Fri Nov 04 16:41:32 EET 2016]; root of context hierarchy
+2016-11-04 16:41:32 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:44:31 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-11-04 16:44:31 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-11-04 16:44:31 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@21213b92, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a67c67e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3327bd23, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4e1d422d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66480dd7]
+2016-11-04 16:44:31 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-test-context.xml]
+2016-11-04 16:44:31 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Fri Nov 04 16:44:31 EET 2016]; root of context hierarchy
+2016-11-04 16:44:32 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app-test.properties]
+2016-11-04 16:44:32 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-11-04 16:44:32 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-11-04 16:44:32 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:44:32 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-11-04 16:44:32 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
+2016-11-04 16:44:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-11-04 16:44:32 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-11-04 16:44:32 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-11-04 16:44:33 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-11-04 16:44:34 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:44:34 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-11-04 16:44:34 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-04 16:44:35 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-11-04 16:44:35 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2016-11-04 16:44:35 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@84487f4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@bfc14b9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@fb6097b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2dfe5525, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1290c49]
+2016-11-04 16:44:35 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-context.xml]
+2016-11-04 16:44:35 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@6a9b9909: startup date [Fri Nov 04 16:44:35 EET 2016]; root of context hierarchy
+2016-11-04 16:44:35 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2016-11-04 16:44:35 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-11-04 16:44:35 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2016-11-04 16:44:35 INFO  LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:44:35 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-11-04 16:44:35 INFO  Dialect:153 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-11-04 16:44:35 INFO  LocalContainerEntityManagerFactoryBean:382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:44:35 WARN  AutowiredAnnotationBeanPostProcessor:422 - Autowired annotation is not supported on static fields: private static java.sql.Connection universe.factory.ConnectionFactory.connection
+2016-11-04 16:44:35 INFO  ServiceAspect:18 - Inside method: Student universe.service.Service.addStudent(Student)
+2016-11-04 16:44:35 INFO  ServiceAspect:30 - Successfully ending method: Student universe.service.Service.addStudent(Student)
+2016-11-04 16:44:35 INFO  ServiceAspect:18 - Inside method: List universe.service.Service.getAllStudents(int,int)
+2016-11-04 16:44:35 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-11-04 16:44:35 INFO  ServiceAspect:30 - Successfully ending method: List universe.service.Service.getAllStudents(int,int)
+2016-11-04 16:44:35 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@6a9b9909: startup date [Fri Nov 04 16:44:35 EET 2016]; root of context hierarchy
+2016-11-04 16:44:35 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@3224f60b: startup date [Fri Nov 04 16:44:31 EET 2016]; root of context hierarchy
+2016-11-04 16:44:35 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-11-04 16:44:35 INFO  LocalContainerEntityManagerFactoryBean:551 - Closing JPA EntityManagerFactory for persistence unit 'default'
