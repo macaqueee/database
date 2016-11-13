@@ -1,5 +1,6 @@
 package universe.dao.interfaces;
 
+import org.springframework.stereotype.Component;
 import universe.model.Group;
 import universe.model.Student;
 

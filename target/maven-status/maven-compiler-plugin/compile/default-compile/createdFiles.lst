@@ -1,7 +1,10 @@
+universe\dto\StudentDTO.class
 universe\dao\interfaces\SubjectDAO.class
 universe\exceptions\EmptyStudentsTableException.class
 universe\view\ConsoleMenu.class
+universe\dto\StudentList.class
 universe\model\Lector.class
+universe\rest\provider\JsonResponceRequestBodyProvider.class
 universe\model\IdEntity.class
 universe\servlet\GroupServlet.class
 universe\exceptions\InvalidConnection.class
@@ -11,9 +14,12 @@ universe\model\Group.class
 universe\filter\RequestLoggerFilter.class
 universe\run\Run.class
 universe\exceptions\WrongInputDataException.class
+universe\utils\db\DBChecker.class
 universe\listener\InitSpringContextListener.class
 universe\exceptions\FailedAddingStudentException.class
 universe\dao\impl\StudentDAOImpl.class
+universe\dto\GroupDTO.class
+universe\rest\endpoint\RestJerseyServiceEndpoint.class
 universe\dao\interfaces\LectorDAO.class
 universe\aop\ServiceAspect.class
 universe\factory\ConnectionFactory.class

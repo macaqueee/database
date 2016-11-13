@@ -12,6 +12,7 @@
     <context:annotation-config/>
     <context:component-scan base-package="universe"/>
 
+
     <aop:aspectj-autoproxy/>
     
     <context:property-placeholder location="app.properties"/>

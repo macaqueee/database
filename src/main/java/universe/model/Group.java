@@ -13,7 +13,7 @@ public class Group extends IdEntity{
     @Column(nullable = false)
     private String name;
 
-    @OneToMany (mappedBy = "group" ,fetch = FetchType.LAZY)
+    @OneToMany (mappedBy = "group" ,fetch = FetchType.EAGER )
     private List<Student> studentList;
 
     public Group() {

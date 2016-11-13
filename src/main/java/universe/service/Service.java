@@ -15,7 +15,7 @@ import java.util.List;
  */
 public interface Service {
 
-    List<Student> getAllStudents(int offset, int length) throws EmptyStudentsTableException;
+    List<Student> getAllStudents(int position, int length) throws EmptyStudentsTableException;
     List<Subject> getAllSubjects();
     List<Lector> getAllLectors();
     List<Group> getAllGroups();

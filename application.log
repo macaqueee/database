@@ -18,7 +18,7 @@
 	...]
 2016-10-17 15:30:49 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 15:30:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 15:30:49 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 15:30:49 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 15:30:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 15:30:50 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 15:30:50 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -31,7 +31,7 @@
 	...]
 2016-10-17 15:31:51 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 15:31:51 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 15:31:51 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 15:31:51 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 15:31:51 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 15:31:51 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 15:31:51 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -44,7 +44,7 @@
 	...]
 2016-10-17 15:32:15 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 15:32:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 15:32:15 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 15:32:15 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 15:32:15 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 15:32:15 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 15:32:15 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -57,7 +57,7 @@
 	...]
 2016-10-17 15:35:18 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 15:35:18 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 15:35:18 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 15:35:18 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 15:35:18 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 15:35:18 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 15:35:18 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -185,7 +185,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 15:38:01 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 15:38:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 15:38:01 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 15:38:01 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 15:38:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 15:38:01 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 15:38:01 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -313,7 +313,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 15:39:30 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 15:39:30 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 15:39:30 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 15:39:30 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 15:39:30 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 15:39:30 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 15:39:30 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -441,7 +441,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 15:49:05 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 15:49:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 15:49:05 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 15:49:05 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 15:49:05 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 15:49:05 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 15:49:05 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -568,7 +568,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 15:50:11 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 15:50:11 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 15:50:11 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 15:50:11 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 15:50:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 15:50:11 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 15:50:11 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -695,7 +695,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:04:20 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:04:20 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:04:20 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:04:20 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:04:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:04:20 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:04:20 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -822,7 +822,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:13:06 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:13:06 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:13:06 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:13:06 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:13:06 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:13:06 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:13:06 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -837,7 +837,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:15:30 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:15:30 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:15:30 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:15:30 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:15:30 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:15:31 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:15:31 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -852,7 +852,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:17:39 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:17:39 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:17:39 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:17:39 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:17:39 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:17:40 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:17:40 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -867,7 +867,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:19:59 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:19:59 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:19:59 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:19:59 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:19:59 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:20:00 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:20:00 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -882,7 +882,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:24:23 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:24:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:24:23 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:24:23 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:24:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:24:23 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:24:23 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -897,7 +897,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:38:24 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:38:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:38:24 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:38:24 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:38:24 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:38:24 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:38:24 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -912,7 +912,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:45:42 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:45:42 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:45:42 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:45:42 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:45:42 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:45:42 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:45:42 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -927,7 +927,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:49:21 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:49:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:49:21 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:49:21 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:49:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:49:21 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:49:21 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -942,7 +942,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:49:53 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:49:53 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:49:53 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:49:53 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:49:53 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:49:54 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:49:54 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -957,7 +957,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:50:50 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:50:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:50:50 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:50:50 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:50:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:50:51 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:50:51 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -972,7 +972,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:55:47 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:55:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:55:47 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:55:47 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:55:47 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:55:47 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:55:47 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -987,7 +987,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 16:56:36 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 16:56:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 16:56:36 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 16:56:36 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 16:56:36 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 16:56:36 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 16:56:36 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -1002,7 +1002,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-17 17:51:38 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-17 17:51:38 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-17 17:51:38 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-17 17:51:38 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-17 17:51:38 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-17 17:51:38 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-17 17:51:38 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -1017,7 +1017,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-21 18:20:57 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-21 18:20:57 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-21 18:20:57 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-21 18:20:57 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-21 18:20:57 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-21 18:20:57 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-21 18:20:57 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -1031,7 +1031,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 	...]
 2016-10-21 18:22:17 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-21 18:22:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-21 18:22:17 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-21 18:22:17 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-21 18:22:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 2016-10-21 18:22:18 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
 2016-10-21 18:22:18 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/artcode?serverTimezone=UTC]
@@ -1043,11 +1043,11 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 2016-10-21 18:22:51 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
 2016-10-21 18:22:51 DEBUG ClassLoaderServiceImpl:124 - Incoming config yielded no classloaders; adding standard SE ones
 2016-10-21 18:22:51 DEBUG HibernatePersistenceProvider:98 - Located and parsed 1 persistence units; checking each
-2016-10-21 18:22:51 DEBUG HibernatePersistenceProvider:106 - Checking persistence-unit [name=hibernate-unit, explicit-provider=org.hibernate.jpa.HibernatePersistenceProvider] against incoming persistence unit name [hibernate-unit]
+2016-10-21 18:22:51 DEBUG HibernatePersistenceProvider:106 - Checking persistence-unit [name=hibernate-unit, explicit-rest1.provider=org.hibernate.jpa.HibernatePersistenceProvider] against incoming persistence unit name [hibernate-unit]
 2016-10-21 18:22:51 DEBUG ProviderChecker:87 - Persistence-unit [hibernate-unit] requested PersistenceProvider [org.hibernate.jpa.HibernatePersistenceProvider]
 2016-10-21 18:22:51 DEBUG LogHelper:102 - PersistenceUnitInfo [
 	name: hibernate-unit
-	persistence provider classname: org.hibernate.jpa.HibernatePersistenceProvider
+	persistence rest1.provider classname: org.hibernate.jpa.HibernatePersistenceProvider
 	classloader: null
 	excludeUnlistedClasses: false
 	JTA datasource: null
@@ -1075,7 +1075,7 @@ Caused by: java.sql.SQLException: Cannot add foreign key constraint
 2016-10-21 18:22:51 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
 2016-10-21 18:22:51 INFO  Version:45 - HHH000412: Hibernate Core {5.2.3.Final}
 2016-10-21 18:22:51 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2016-10-21 18:22:51 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2016-10-21 18:22:51 INFO  Environment:318 - HHH000021: Bytecode rest1.provider name : javassist
 2016-10-21 18:22:51 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
 2016-10-21 18:22:51 DEBUG RegionFactoryInitiator:75 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
 2016-10-21 18:22:51 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}

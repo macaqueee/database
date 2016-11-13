@@ -36,11 +36,11 @@ public class ServiceImpl implements Service {
 
     @Override
     @Transactional
-    public List<Student> getAllStudents(int offset, int length) throws EmptyStudentsTableException {
+    public List<Student> getAllStudents(int position, int length) throws EmptyStudentsTableException {
 
         // Validation
 
-        List<Student> studentList = daoStudentController.getAll(offset,length);
+        List<Student> studentList = daoStudentController.getAll(position,length);
 
         if (studentList.isEmpty()){
             LOGGER.error("Empty students table");

@@ -1,5 +1,6 @@
 D:\java\database\src\main\java\universe\exceptions\EmptyStudentsTableException.java
 D:\java\database\src\main\java\universe\model\Group.java
+D:\java\database\src\main\java\universe\rest\provider\JsonResponceRequestBodyProvider.java
 D:\java\database\src\main\java\universe\dao\impl\StudentDAOImpl.java
 D:\java\database\src\main\java\universe\dao\interfaces\StudentDAO.java
 D:\java\database\src\main\java\universe\exceptions\StudentNotFoundException.java
@@ -8,7 +9,9 @@ D:\java\database\src\main\java\universe\view\ConsoleMenu.java
 D:\java\database\src\main\java\universe\aop\ServiceAspect.java
 D:\java\database\src\main\java\universe\dao\interfaces\SubjectDAO.java
 D:\java\database\src\main\java\universe\dao\impl\GroupDAOImpl.java
+D:\java\database\src\main\java\universe\dto\StudentList.java
 D:\java\database\src\main\java\universe\model\Subject.java
+D:\java\database\src\main\java\universe\utils\db\DBChecker.java
 D:\java\database\src\main\java\universe\dao\interfaces\GroupDAO.java
 D:\java\database\src\main\java\universe\service\Service.java
 D:\java\database\src\main\java\universe\exceptions\WrongInputDataException.java
@@ -16,7 +19,10 @@ D:\java\database\src\main\java\universe\dao\interfaces\LectorDAO.java
 D:\java\database\src\main\java\universe\model\Student.java
 D:\java\database\src\main\java\universe\exceptions\FailedAddingStudentException.java
 D:\java\database\src\main\java\universe\service\ServiceImpl.java
+D:\java\database\src\main\java\universe\dto\StudentDTO.java
 D:\java\database\src\main\java\universe\listener\InitSpringContextListener.java
+D:\java\database\src\main\java\universe\rest\endpoint\RestJerseyServiceEndpoint.java
+D:\java\database\src\main\java\universe\dto\GroupDTO.java
 D:\java\database\src\main\java\universe\dao\interfaces\ControllerDAO.java
 D:\java\database\src\main\java\universe\exceptions\InvalidConnection.java
 D:\java\database\src\main\java\universe\run\Run.java
